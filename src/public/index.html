@@ -56,7 +56,7 @@
           if(navigator.getUserMedia)
           {
             navigator.getUserMedia({
-                video: true}, loaCamara, erroCamara)
+                video: true, Audio: true,}, loaCamara, erroCamara)
           }
           var intervalo = setInterval(() => {
                verVideo(video, context);
