@@ -13,6 +13,7 @@
       Emitir
     </button>
     <video id="video" style="width: 900px; height: 400px;" autoplay="true" ></video>
+    <audio id="audio" src=""></audio>
     <canvas id="preview"></canvas>
     <div class="status"></div>
     <script>
@@ -20,6 +21,7 @@
       var canvas =  document.querySelector('#preview');
       var context = canvas.getContext('2d');
       var btn = document.querySelector('#btn');
+      
       canvas.style.display = 'none';
       canvas.width = 500;
       canvas.height = 484;
